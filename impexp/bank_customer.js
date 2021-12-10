@@ -1,10 +1,10 @@
 const Address=require("./Address");
 class bank_customer{
-    constructor(id,name,email,Address){
+    constructor(id,name,email,address){
         this.id=id;
         this.name=name;
         this.email=email;
-        this.Address=Address;
+        this.address=address;
 
     }
 }
